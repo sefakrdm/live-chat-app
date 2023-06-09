@@ -11,7 +11,7 @@ export default function Navbar() {
     <div className="flex flew-row justify-between items-center p-3">
       <h1 className="text-2xl font-semibold text-blue-100">Live Chat App</h1>
       <div className="flex flex-row items-center">
-        <img onClick={() => setDropdown(!dropdown)} src={loginUser.photoURL} alt='' className="rounded-full w-12 h-12 object-cover mr-2 cursor-pointer"/>
+        <img onClick={() => setDropdown(!dropdown)} src={loginUser.photoURL} alt='' className="rounded-full w-12 h-12 object-cover md:mr-2 mr-16 cursor-pointer"/>
         <div className={`absolute top-16 left-28 rounded-md drop-shadow-xl bg-gray-800 p-4 flex flex-col w-96 ${dropdown ? "block":"hidden"}`}>
           <div className="flex flex-row items-center content-center">
             <img src={loginUser.photoURL} alt='' className="rounded-full w-32 h-32 object-cover mr-2 cursor-pointer"/>

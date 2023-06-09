@@ -8,7 +8,7 @@ export default function Chat() {
 
   return (
     <>
-      <div className="flex flex-row items-center bg-slate-800 fixed top-0 right-0 w-3/4 ml-80 p-3">
+      <div className="flex flex-row items-center bg-slate-800 fixed top-0 right-0 md:w-3/4 w-full md:ml-80 p-3">
         {data.user.photoURL && (
           <img
             src={data.user.photoURL}

@@ -74,7 +74,7 @@ export default function Input() {
   return (
     <form
       onSubmit={handlePost}
-      className="fixed bottom-0 right-0 w-3/4 py-4 px-6 bg-slate-950 flex flex-row justify-between"
+      className="fixed bottom-0 right-0 md:w-3/4 w-full py-4 px-6 bg-slate-950 flex flex-row justify-between"
     >
       <input
         type="text"

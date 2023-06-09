@@ -84,7 +84,7 @@ export default function Register() {
   };
   return (
     <div className="bg-slate-800 h-screen flex justify-center items-center">
-      <div className="bg-gray-200 rounded-md py-10 px-12 w-1/4">
+      <div className="bg-gray-200 rounded-md py-10 px-12 md:w-1/4 w-full">
         <h1 className="text-3xl font-semibold text-gray-800">Live Chat App</h1>
         <h2 className="text-lg text-gray-700 mt-2">Kaydol</h2>
           {loading && <span className="p-3 text-center bg-indigo-400 w-full block text-white text-sm font-semibold rounded-md mt-3">Üyelik oluşturuluyor lütfen bekleyiniz...</span>}

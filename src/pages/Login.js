@@ -42,7 +42,7 @@ export default function Login() {
 
   return (
     <div className="bg-slate-800 h-screen flex justify-center items-center">
-      <div className="bg-gray-200 rounded-md py-10 px-12 w-1/4">
+      <div className="bg-gray-200 rounded-md py-10 px-12 md:w-1/4 w-full">
         <h1 className="text-3xl font-semibold text-gray-800">Live Chat App</h1>
         <h2 className="text-lg text-gray-700 mt-2">Giriş Yap</h2>
         <form onSubmit={handleSubmit} className="flex flex-col">
