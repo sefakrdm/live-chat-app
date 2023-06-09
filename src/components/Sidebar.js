@@ -6,7 +6,7 @@ import { MdOutlineArrowForwardIos, MdOutlineArrowBackIosNew } from 'react-icons/
 import { ChatContext } from '../contexts/ChatContext'
 
 export default function Sidebar() {
-  const [sidebar,setSidebar] = useState(false);
+  const [sidebar,setSidebar] = useState(true);
   const {data} = useContext(ChatContext)
 
   useEffect(() => {
